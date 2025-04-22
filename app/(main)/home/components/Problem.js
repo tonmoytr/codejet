@@ -1,4 +1,6 @@
 import { LuCodeXml } from "react-icons/lu";
+import { IoNotificationsOffOutline } from "react-icons/io5";
+import { LuTrendingDown } from "react-icons/lu";
 
 export default function Problem() {
   return (
@@ -6,7 +8,7 @@ export default function Problem() {
       <div className="flex justify-center items-center px-6 py-12 md:py-20 text-center">
         <div className="flex flex-col justify-between items-center gap-10">
           <h6 className="text-xl text-red-600 font-semibold">Problem</h6>
-          <h3 className="text-5xl font-bold text-black">
+          <h3 className="text-5xl font-bold text-black leading-tight">
             Struggling to Build Your Online <br /> Presence?
           </h3>
           <article className="text-lg font-medium text-gray-600">
@@ -38,7 +40,7 @@ export default function Problem() {
           <div className="flex flex-col justify-between items-center gap-6 text-center">
             <figure className="p-2 bg-orange-600 rounded-full w-[50px] h-[50px] flex justify-center items-center">
               <span className="text-2xl text-white">
-                <LuCodeXml />
+                <IoNotificationsOffOutline />
               </span>
             </figure>
             <article>
@@ -54,7 +56,7 @@ export default function Problem() {
           <div className="flex flex-col justify-between items-center gap-6 text-center">
             <figure className="p-2 bg-orange-600 rounded-full w-[50px] h-[50px] flex justify-center items-center">
               <span className="text-2xl text-white">
-                <LuCodeXml />
+                <LuTrendingDown />
               </span>
             </figure>
             <article>
