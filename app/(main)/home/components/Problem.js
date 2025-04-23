@@ -7,7 +7,7 @@ export default function Problem() {
     <div>
       <div className="flex justify-center items-center px-6 py-12 md:py-20 text-center">
         <div className="flex flex-col justify-between items-center gap-10">
-          <h6 className="text-xl text-red-600 font-semibold">Problem</h6>
+          <h6 className="text-xl text-red-600 font-semibold md:mt-16">Problem</h6>
           <h3 className="text-5xl font-bold text-black leading-tight">
             Struggling to Build Your Online <br /> Presence?
           </h3>

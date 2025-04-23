@@ -1,5 +1,14 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Helvetica";
+  src: url("/public/assets/fonts/Helvetica.ttf");
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+}
+
 /* :root {
   --background: #ffffff;
   --foreground: #171717;
