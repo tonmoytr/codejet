@@ -7,6 +7,7 @@ import Testimonials from "./(main)/home/components/Testimonials";
 import Offer from "./(main)/home/components/Offer";
 import StartToday from "./(main)/home/components/StartToday";
 import Guarantee from "./(main)/home/components/Guarantee";
+import Faq from "./(main)/home/components/Faq";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Potential />
         <Testimonials />
         <Offer />
+        <Faq />
         <StartToday />
         <Guarantee />
       </div>

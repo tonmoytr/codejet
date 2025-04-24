@@ -3,7 +3,7 @@ import { RiArrowRightSLine } from "react-icons/ri";
 
 export default function StartToday() {
   return (
-    <div className="flex justify-center items-center px-6 py-12 md:py-32 text-center border-t-2">
+    <div className="flex justify-center items-center px-6 py-12 md:py-32 text-center ">
       <div className="flex flex-col md:flex-row justify-between items-center gap-8 md:gap-24 ">
         <article className="flex flex-col justify-start items-start gap-3">
           <h3 className="text-xl font-bold text-orange-600">Start Today</h3>
