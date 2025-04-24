@@ -4,7 +4,7 @@ export default function Banner() {
   return (
     <div className="flex justify-center items-center px-6 py-12 md:py-20 text-center">
       <div className="flex flex-col justify-between items-center gap-16">
-        <h1 className="text-6xl font-bold text-black leading-tight">
+        <h1 className="text-[3.5rem] font-bold text-black leading-16">
           Create beautiful websites <br />
           <span className="text-orange-600">no tech skills needed!</span>
         </h1>

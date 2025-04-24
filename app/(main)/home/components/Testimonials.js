@@ -2,14 +2,14 @@ import { IoStar } from "react-icons/io5";
 
 export default function Testimonials() {
   return (
-    <div className="bg-orange-50 my-12 p-12 md:pb-20">
-      <div className="px-4">
-        <div className="flex justify-center items-center px-6 py-12 md:py-20 text-center">
+    <div className="bg-orange-50 my-12 md:p-12 pb-28">
+      <div className="md:px-4">
+        <div className="flex justify-center items-center px-6 py-24 md:py-20 text-center">
           <div className="flex flex-col justify-between items-center gap-4">
             <h6 className="text-xl text-orange-600 font-semibold md:mt-14">
               Testimonials
             </h6>
-            <h3 className="text-3xl leading-12 md:text-5xl font-bold text-black md:leading-tight">
+            <h3 className="text-5xl leading-12 md:text-5xl font-semibold md:font-bold text-black md:leading-tight">
               What our customers say
             </h3>
           </div>
